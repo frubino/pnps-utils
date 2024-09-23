@@ -1,0 +1,20 @@
+[package]
+name = "pnps-utils"
+version = "0.1.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+bio_rascal = { git = 'https://git.kalpa.synology.me/Lavoro/bio-rascal.git', branch = "dev-0.1.1" }
+#bio_rascal = { path = "../bio-rascal", version = "0.1.1" }
+clap = { version = "4.1", features = ["derive"] }
+clap_complete = "4.1"
+console = "0.15"
+csv = "1.1"
+env_logger = "0.10"
+indicatif = "0.17"
+log = "0.4"
+serde_json = "1.0"
+uuid = { version = "1.2", features = ["v4"] }
