@@ -7,8 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0"
-bio_rascal = { git = 'https://git.kalpa.synology.me/Lavoro/bio-rascal.git', branch = "dev-0.1.1" }
-#bio_rascal = { path = "../bio-rascal", version = "0.1.1" }
+bio_rascal = { git = 'https://github.com/frubino/bio-rascal.git', branch = "dev-0.1.1" }
 clap = { version = "4.1", features = ["derive"] }
 clap_complete = "4.1"
 console = "0.15"
